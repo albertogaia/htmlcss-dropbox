@@ -19,7 +19,6 @@ body {
 
 .w-90 {
     width: 90%;
-    padding: 15px 0px;
     margin: 0 auto;
 }
 
@@ -55,6 +54,7 @@ a {
 
 h3 {
     font-size: 24px;
+    padding: 30px 0px;
 }
 
 button {
@@ -93,7 +93,7 @@ section h2 {
 }
 
 .row {
-    margin: 30px 0px;
+    margin: 50px 0px;
 }
 
 .far,
@@ -272,6 +272,14 @@ article {
     margin-bottom: 40px;
 }
 
+.artw100 .w-90 {
+    padding: 20px 0px;
+}
+
+.artw100 .w-90 h3 {
+    padding-top: 0px;
+}
+
 #articles .w-90 button {
     display: block;
     width: 100%;
@@ -313,12 +321,8 @@ article {
     width: 100%;
 }
 
-.cta-partner .w-50 {
+.cta-partner .partner-text {
     padding-left: 50px;
-}
-
-.cta-partner h3 {
-    padding: 30px 0px;
 }
 
 .cta-partner button {
@@ -327,6 +331,31 @@ article {
 }
 
 
+/* sezione operazione business  */
+
+.col-operazioni {
+    width: calc(100% / 3 - 20px);
+    float: left;
+    padding: 0px 30px;
+}
+
+.col-center {
+    margin: 0px 30px;
+}
+
+.col-operazioni h3 {
+    padding-top: 0;
+}
+
+.col-operazioni img {
+    height: 250px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.col
 /* FINE MAIN */
 
 
