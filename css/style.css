@@ -7,11 +7,95 @@
 
 /* COMMON */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.w-90 {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.w-60 {
+    margin: 0 auto;
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 8px 16px;
+}
+
+.btn:hover {
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-blue {
+    background-color: #0061FE;
+    color: white;
+}
+
 
 /* FINE COMMON */
 
 
 /* HEADER */
+
+header {
+    height: 80px;
+    background-color: white;
+    width: 100%;
+    vertical-align: middle;
+    border-bottom: 1px solid trasparent;
+}
+
+header img {
+    vertical-align: middle;
+    padding: 0 10px 0px 0px;
+}
+
+nav {
+    line-height: 80px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px 20px;
+    color: black;
+    line-height: 100%;
+}
+
+nav .logo-img:hover {
+    border-bottom: 1px solid transparent;
+}
+
+nav a:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-left {
+    height: 100%;
+    float: left;
+    margin: 0px 0px 0px 50px;
+}
+
+.nav-right {
+    height: 100%;
+    float: right;
+    margin: 0px 50px 0px 0px;
+}
+
+#start-button {
+    margin-left: 20px;
+}
 
 
 /* FINE HEADER */
