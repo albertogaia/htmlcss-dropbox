@@ -101,6 +101,18 @@ section h2 {
     padding-right: 5px;
 }
 
+.link-cta,
+.link-cta:visited,
+.link-cta:focus {
+    text-decoration: underline;
+    color: #0061FE;
+    font-weight: 600;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 
 /* FINE COMMON */
 
@@ -277,7 +289,7 @@ article {
 }
 
 .artw100 .w-90 h3 {
-    padding-top: 0px;
+    padding-top: ;
 }
 
 #articles .w-90 button {
@@ -289,11 +301,6 @@ article {
 .w-90 .buy-now {
     margin: 20px 0px;
     font-weight: 600;
-}
-
-.w-90 a {
-    text-decoration: underline;
-    color: #0061FE;
 }
 
 .w-90 hr {
@@ -351,11 +358,86 @@ article {
     height: 250px;
 }
 
-.underline {
-    text-decoration: underline;
+
+/* sezione team dropbox */
+
+.teams {
+    width: 100%;
+    background-color: #B4D0E7;
+    margin-top: 30px;
+    height: 500px;
 }
 
-.col
+.col-team {
+    float: left;
+}
+
+#col-team-left {
+    float: left;
+}
+
+#col-team-center {
+    width: calc(100% - 900px);
+    float: left;
+    position: relative;
+    height: 100%;
+}
+
+#col-team-center img {
+    height: 50px;
+    width: 100%;
+}
+
+.single-team {
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.col-team img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+}
+
+.team1 {
+    background-color: turquoise;
+    border: 10px solid rgba(104, 244, 239, 0.441);
+}
+
+.team2 {
+    background-color: brown;
+}
+
+.team3 {
+    background-color: cornflowerblue;
+}
+
+.team4 {
+    background-color: tomato;
+}
+
+.team5 {
+    background-color: salmon;
+}
+
+.team6 {
+    background-color: transparent;
+}
+
+.team7 {
+    background-color: rebeccapurple;
+}
+
+.team8 {
+    background-color: sandybrown;
+}
+
+
 /* FINE MAIN */
 
 
