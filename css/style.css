@@ -11,6 +11,18 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.w-90 {
+    width: 90%;
+    padding: 15px 0px;
+    margin: 0 auto;
+}
+
 .w-80 {
     margin: 0 auto;
     width: 80%;
@@ -28,10 +40,11 @@ a {
 button {
     border: none;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .btn {
-    padding: 8px 16px;
+    padding: 10px 22px;
 }
 
 .btn:hover {
@@ -45,6 +58,29 @@ button {
 
 p {
     font-weight: 600;
+}
+
+section {
+    margin: 200px auto;
+}
+
+section h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.radio {
+    padding-right: 20px;
+}
+
+.row {
+    margin: 30px 0px;
+}
+
+.far,
+.fas {
+    padding-right: 5px;
 }
 
 
@@ -134,7 +170,6 @@ nav a:hover {
 
 .row {
     width: 100%;
-    height: 100%;
 }
 
 .col-40w {
@@ -149,12 +184,12 @@ nav a:hover {
 
 .jumbotron .w-80 .col-60w img {
     position: absolute;
-    max-width: 800px;
-    width: 50%;
+    max-width: 40%;
+    width: 100%;
     bottom: -70px;
 }
 
-.fas {
+.fa-arrow-down {
     padding-top: 30px;
     font-size: 30px;
 }
@@ -164,6 +199,85 @@ nav a:hover {
 
 
 /* MAIN */
+
+.artw-30 {
+    float: left;
+    min-height: 900px;
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+}
+
+article {
+    border: 1px solid grey;
+}
+
+.artw100 {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.artw-30 h4 {
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+}
+
+.w-90 h3 {
+    font-size: 24px;
+}
+
+.w-90 .art-rinnovo {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.w-90 .fa-check {
+    color: #0061FE;
+}
+
+.w-90 .span-bold {
+    padding: 20px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.w-90 .art-rinnovo {
+    font-weight: 600;
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.w-90 button {
+    display: block;
+    width: 100%;
+    margin: 20px auto 10px auto;
+}
+
+.w-90 .buy-now {
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+.w-90 a {
+    text-decoration: underline;
+    color: #0061FE;
+}
+
+.w-90 hr {
+    width: 20%;
+    color: grey;
+    margin: 30px 0px;
+}
+
+.w-90 ul li {
+    list-style: none;
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
 /* FINE MAIN */
