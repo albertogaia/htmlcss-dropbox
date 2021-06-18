@@ -11,9 +11,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.w-90 {
+.w-80 {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
 }
 
 .w-60 {
@@ -43,6 +43,10 @@ button {
     color: white;
 }
 
+p {
+    font-weight: 600;
+}
+
 
 /* FINE COMMON */
 
@@ -54,7 +58,7 @@ header {
     background-color: white;
     width: 100%;
     vertical-align: middle;
-    border-bottom: 1px solid trasparent;
+    /* border-bottom: 1px solid trasparent; */
 }
 
 header img {
@@ -99,6 +103,64 @@ nav a:hover {
 
 
 /* FINE HEADER */
+
+
+/* JUMBOTRON */
+
+.jumbotron {
+    position: relative;
+    background-color: #B4D0E7;
+    background-size: cover;
+    min-height: 800px;
+    padding: 150px 0px 0px;
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    padding: 30px 100px 30px 0px;
+}
+
+.jumbotron span {
+    display: block;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+}
+
+.col-40w {
+    width: 40%;
+    float: left;
+}
+
+.col-60w {
+    width: 60%;
+    float: left;
+}
+
+.jumbotron .w-80 .col-60w img {
+    position: absolute;
+    max-width: 800px;
+    width: 50%;
+    bottom: -70px;
+}
+
+.fas {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+
+/* FINE JUMBOTRON */
 
 
 /* MAIN */
