@@ -33,6 +33,16 @@ body {
     width: 60%;
 }
 
+.col-70 {
+    float: left;
+    width: 70%;
+}
+
+.col-30 {
+    float: left;
+    width: 30%;
+}
+
 a {
     text-decoration: none;
 }
@@ -178,15 +188,17 @@ nav a:hover {
 }
 
 .col-60w {
+    position: relative;
     width: 60%;
+    height: 100%;
     float: left;
 }
 
 .jumbotron .w-80 .col-60w img {
-    position: absolute;
-    max-width: 40%;
+    /* position: absolute; */
+    /* max-width: 40%; */
     width: 100%;
-    bottom: -70px;
+    margin-bottom: -70px;
 }
 
 .fa-arrow-down {
@@ -203,24 +215,26 @@ nav a:hover {
 .artw-30 {
     float: left;
     min-height: 900px;
-    width: calc(100% / 3 - 30px);
-    margin: 15px;
+    width: calc(100% / 3 - 10px);
+}
+
+.article-center {
+    margin: 0px 15px;
 }
 
 article {
-    border: 1px solid grey;
+    border: 1px solid lightgray;
 }
 
-.artw100 {
-    width: 100%;
-    border: 1px solid grey;
+#articles {
+    justify-content: space-between;
 }
 
-.artw-30 h4 {
+.row h4 {
     padding: 10px 0px;
     text-align: center;
     font-weight: 600;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgray;
 }
 
 .w-90 h3 {
@@ -237,7 +251,8 @@ article {
     color: #0061FE;
 }
 
-.w-90 .span-bold {
+.row .span-bold {
+    display: block;
     padding: 20px 0px;
     font-size: 16px;
     font-weight: 700;
@@ -250,7 +265,7 @@ article {
     margin-bottom: 40px;
 }
 
-.w-90 button {
+#articles .w-90 button {
     display: block;
     width: 100%;
     margin: 20px auto 10px auto;
@@ -277,6 +292,11 @@ article {
     padding: 10px 0px;
     font-size: 14px;
     font-weight: 600;
+}
+
+.col-30 button {
+    display: block;
+    width: 100%;
 }
 
 
