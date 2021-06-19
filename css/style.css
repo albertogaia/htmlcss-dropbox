@@ -523,5 +523,32 @@ article {
 
 /* FOOTER */
 
+footer {
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+footer .w-90 hr {
+    margin-top: 100px;
+    color: white;
+    width: 100px;
+}
+
+.foot-top {
+    width: 100%;
+}
+
+.foot-menu {
+    width: calc(100% / 5);
+    float: left;
+}
+
+.foot-bottom {
+    color: grey;
+    padding: 50px 0px;
+    line-height: 30px;
+}
+
 
 /* FINE FOOTER */
