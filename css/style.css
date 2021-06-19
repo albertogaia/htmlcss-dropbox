@@ -17,6 +17,13 @@ body {
     clear: both;
 }
 
+section {
+    margin: 100px auto;
+}
+
+
+/* testo */
+
 h1 {
     font-size: 60px;
     font-weight: 700;
@@ -31,6 +38,26 @@ h3 {
 a {
     text-decoration: none;
 }
+
+section h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.span-bold {
+    display: block;
+    padding: 20px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+/* larghezze colonne */
 
 .w-90 {
     width: 90%;
@@ -68,6 +95,14 @@ a {
     width: 30%;
 }
 
+.row {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+
+/* pulsanti */
+
 button {
     border: none;
     cursor: pointer;
@@ -87,29 +122,11 @@ button:hover {
     border: none;
 }
 
-.span-bold {
-    display: block;
-    padding: 20px 0px;
-    font-size: 16px;
-    font-weight: 700;
-}
 
-section {
-    margin: 100px auto;
-}
-
-section h2 {
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 40px;
-}
+/* altro */
 
 .radio {
     padding-right: 20px;
-}
-
-.row {
-    margin: 50px 0px;
 }
 
 .far,
@@ -122,10 +139,6 @@ section h2 {
 .link-cta:focus {
     color: #0061FE;
     font-weight: 600;
-}
-
-.underline {
-    text-decoration: underline;
 }
 
 
@@ -210,25 +223,11 @@ nav a:hover {
     font-size: 12px;
 }
 
-.row {
-    width: 100%;
-}
-
-.col-40w {
-    width: 40%;
+.jumbotron .w-80 .w-60 {
     float: left;
 }
 
-.col-60w {
-    position: relative;
-    width: 60%;
-    height: 100%;
-    float: left;
-}
-
-.jumbotron .w-80 .col-60w img {
-    /* position: absolute; */
-    /* max-width: 40%; */
+.jumbotron .w-80 .w-60 img {
     width: 100%;
     margin-bottom: -70px;
 }
