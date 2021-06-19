@@ -398,6 +398,7 @@ article {
 .col-side .single-team:hover {
     cursor: pointer;
     opacity: 1;
+    border: 10px solid rgba(209, 230, 230, 0.263);
 }
 
 .team-dropbox .teams .col-center-team {
@@ -428,7 +429,6 @@ article {
 
 .team1 {
     background-color: turquoise;
-    border: 10px solid rgba(104, 244, 239, 0.441);
 }
 
 .team2 {
