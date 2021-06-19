@@ -43,6 +43,11 @@ body {
     float: left;
 }
 
+.w-40 {
+    float: left;
+    width: 40%;
+}
+
 .w-30 {
     float: left;
     width: 30%;
@@ -61,7 +66,8 @@ button {
     border: none;
     cursor: pointer;
     font-weight: 500;
-    background-color: transparent;
+    background-color: white;
+    border: 1px solid grey;
     padding: 10px 22px;
 }
 
@@ -69,9 +75,10 @@ button:hover {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
-.btn-blue {
+.btn.btn-blue {
     background-color: #0061FE;
     color: white;
+    border: none;
 }
 
 .jumbotron p {
@@ -289,7 +296,7 @@ article {
 }
 
 .artw100 .w-90 h3 {
-    padding-top: ;
+    padding-top: 0;
 }
 
 #articles .w-90 button {
@@ -355,53 +362,62 @@ article {
 }
 
 .col-operazioni img {
-    height: 250px;
+    width: 100%;
 }
 
 
 /* sezione team dropbox */
 
-.teams {
+.team-dropbox .teams {
     width: 100%;
-    background-color: #B4D0E7;
     margin-top: 30px;
-    height: 500px;
 }
 
-.col-team {
+.teams .col-side {
     float: left;
+    height: 30vw;
+    width: 30vw;
 }
 
-#col-team-left {
+.col-side .single-team {
     float: left;
+    /* li teniamo quadrati e di dimensioni relative, sempre in vw */
+    height: 15vw;
+    width: 15vw;
+    /* centratura */
+    text-align: center;
+    line-height: 15vw;
 }
 
-#col-team-center {
-    width: calc(100% - 900px);
+.col-side .single-team img {
+    width: 50%;
+    vertical-align: middle;
+}
+
+.team-dropbox .teams .col-center-team {
     float: left;
-    position: relative;
-    height: 100%;
-}
-
-#col-team-center img {
-    height: 50px;
-    width: 100%;
-}
-
-.single-team {
-    width: 300px;
-    height: 300px;
-    float: left;
-    position: relative;
-}
-
-.col-team img {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     padding: 50px;
+    width: 40vw;
+    height: 30vw;
+    overflow-y: auto;
+}
+
+.teams .col-center-team img {
+    width: 20%;
+}
+
+.teams .col-center-team hr {
+    margin-top: 30px;
+    width: 20%;
+}
+
+.teams .col-center-team p {
+    display: inline;
+    margin: 50px 0;
+}
+
+.teams .col-center-team span {
+    padding-bottom: 10px;
 }
 
 .team1 {
@@ -436,6 +452,42 @@ article {
 .team8 {
     background-color: sandybrown;
 }
+
+.banner-team {
+    background-color: #B4D0E7;
+    padding: 150px 0px;
+}
+
+.banner-team .w-60 .w-60,
+.banner-team .w-40 .w-60 {
+    float: left;
+}
+
+.banner-team .w-40 {
+    text-align: right;
+}
+
+.banner-team .w-40 button {
+    width: 60%;
+    text-align: center;
+    border: none;
+}
+
+.banner-team .w-60 {
+    padding-right: 100px;
+}
+
+.banner-team .w-60 h2 {
+    color: brown;
+}
+
+
+/* 
+.banner-team-bot .w-60 .w-70,
+.banner-team-bot .w-60 .w-30 {
+    display: inline-block;
+    float: left;
+} */
 
 
 /* FINE MAIN */
