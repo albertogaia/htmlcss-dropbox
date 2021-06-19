@@ -17,6 +17,21 @@ body {
     clear: both;
 }
 
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    padding: 30px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .w-90 {
     width: 90%;
     margin: 0 auto;
@@ -53,15 +68,6 @@ body {
     width: 30%;
 }
 
-a {
-    text-decoration: none;
-}
-
-h3 {
-    font-size: 24px;
-    padding: 30px 0px;
-}
-
 button {
     border: none;
     cursor: pointer;
@@ -86,10 +92,6 @@ button:hover {
     padding: 20px 0px;
     font-size: 16px;
     font-weight: 700;
-}
-
-.jumbotron p {
-    font-weight: 600;
 }
 
 section {
@@ -118,7 +120,6 @@ section h2 {
 .link-cta,
 .link-cta:visited,
 .link-cta:focus {
-    text-decoration: underline;
     color: #0061FE;
     font-weight: 600;
 }
@@ -134,11 +135,13 @@ section h2 {
 /* HEADER */
 
 header {
-    height: 80px;
     background-color: white;
     width: 100%;
-    vertical-align: middle;
-    /* border-bottom: 1px solid trasparent; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 header img {
@@ -152,9 +155,10 @@ nav {
 
 nav a {
     display: inline-block;
-    padding: 20px 20px;
+    padding: 0px 20px;
     color: black;
-    line-height: 100%;
+    /* metto bordo trasparente per non far sfarfallare il menu con l'hover */
+    border-bottom: 1px solid transparent;
 }
 
 nav .logo-img:hover {
@@ -191,17 +195,11 @@ nav a:hover {
     position: relative;
     background-color: #B4D0E7;
     background-size: cover;
-    min-height: 800px;
     padding: 150px 0px 0px;
 }
 
-.jumbotron h1 {
-    font-size: 60px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
 .jumbotron p {
+    font-weight: 600;
     padding: 30px 100px 30px 0px;
 }
 
@@ -385,6 +383,8 @@ article {
     width: 15vw;
     text-align: center;
     line-height: 15vw;
+    /* do un'opacità che servirà per l'hover */
+    opacity: 0.9;
 }
 
 .col-side .single-team img {
@@ -393,12 +393,21 @@ article {
     filter: invert(1);
 }
 
+
+/* effetto puntatore sui box dei team */
+
+.col-side .single-team:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
 .team-dropbox .teams .col-center-team {
     float: left;
     padding: 50px;
     width: 40vw;
     height: 30vw;
     overflow-y: auto;
+    background-color: #F5F5F5;
 }
 
 .teams .col-center-team img {
@@ -406,12 +415,11 @@ article {
 }
 
 .teams .col-center-team hr {
-    margin-top: 30px;
+    margin: 30px 0px;
     width: 20%;
 }
 
 .teams .col-center-team p {
-    display: inline;
     margin: 50px 0;
 }
 
@@ -441,7 +449,7 @@ article {
 }
 
 .team6 {
-    background-color: transparent;
+    background-color: #B4D0E7;
 }
 
 .team7 {
