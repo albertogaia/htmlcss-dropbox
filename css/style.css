@@ -81,6 +81,13 @@ button:hover {
     border: none;
 }
 
+.span-bold {
+    display: block;
+    padding: 20px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .jumbotron p {
     font-weight: 600;
 }
@@ -275,13 +282,6 @@ article {
 
 .w-90 .fa-check {
     color: #0061FE;
-}
-
-.row .span-bold {
-    display: block;
-    padding: 20px 0px;
-    font-size: 16px;
-    font-weight: 700;
 }
 
 .w-90 .art-rinnovo {
@@ -481,12 +481,41 @@ article {
 }
 
 
-/* 
-.banner-team-bot .w-60 .w-70,
-.banner-team-bot .w-60 .w-30 {
+/* Inizio sezione FAQ */
+
+.faq {
+    position: relative;
+    padding: 50px 0px;
+    border-top: 1px solid lightgray;
+}
+
+.faq:last-of-type {
+    border-bottom: 1px solid lightgray;
+}
+
+.faq .span-bold {
     display: inline-block;
-    float: left;
-} */
+    padding: 0;
+}
+
+.faq .fas {
+    position: absolute;
+    right: 0;
+}
+
+.faq .faq-answer {
+    padding-top: 20px;
+    width: 70%;
+    display: none;
+}
+
+.faq:hover {
+    cursor: pointer;
+}
+
+.faq:hover .faq-answer {
+    display: block;
+}
 
 
 /* FINE MAIN */
