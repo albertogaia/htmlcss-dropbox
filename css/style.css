@@ -7,6 +7,10 @@
 
 /* COMMON */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -209,6 +213,14 @@ nav a:hover {
     background-color: #B4D0E7;
     background-size: cover;
     padding: 150px 0px 0px;
+}
+
+.jumbotron a {
+    color: black;
+}
+
+#db-arrow {
+    padding-top: 50px;
 }
 
 .jumbotron p {
