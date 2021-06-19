@@ -381,10 +381,8 @@ article {
 
 .col-side .single-team {
     float: left;
-    /* li teniamo quadrati e di dimensioni relative, sempre in vw */
     height: 15vw;
     width: 15vw;
-    /* centratura */
     text-align: center;
     line-height: 15vw;
 }
@@ -392,6 +390,7 @@ article {
 .col-side .single-team img {
     width: 50%;
     vertical-align: middle;
+    filter: invert(1);
 }
 
 .team-dropbox .teams .col-center-team {
