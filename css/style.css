@@ -260,7 +260,7 @@ nav a:hover {
 }
 
 .jumbotron .w-80 .w-60 img {
-    width: 100%;
+    /* width: 100%; */
     max-width: 100%;
     margin-bottom: -70px;
 }
@@ -291,10 +291,6 @@ nav a:hover {
 
 article {
     border: 1px solid lightgray;
-}
-
-#articles {
-    justify-content: space-between;
 }
 
 .row h4 {
