@@ -416,6 +416,7 @@ article {
     line-height: 15vw;
     /* do un'opacità che servirà per l'hover */
     opacity: 0.9;
+    border: 10px solid transparent;
 }
 
 .col-side .single-team img {
