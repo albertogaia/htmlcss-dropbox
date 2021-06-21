@@ -517,7 +517,12 @@ article {
     padding: 0;
 }
 
-.faq .fas {
+.faq .fa-chevron-up {
+    display: none;
+}
+
+.faq .fas,
+.faq .fas.fa-chevron-up {
     position: absolute;
     right: 0;
 }
@@ -532,8 +537,13 @@ article {
     cursor: pointer;
 }
 
-.faq:hover .faq-answer {
+.faq:hover .faq-answer,
+.faq:hover .fa-chevron-up {
     display: block;
+}
+
+.faq:hover .fa-chevron-down {
+    display: none;
 }
 
 
