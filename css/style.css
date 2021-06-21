@@ -261,6 +261,7 @@ nav a:hover {
 
 .jumbotron .w-80 .w-60 img {
     width: 100%;
+    max-width: 100%;
     margin-bottom: -70px;
 }
 
